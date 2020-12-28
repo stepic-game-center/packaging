@@ -19,6 +19,10 @@ from UserRegist import Ui_UserRegistWindow
 from UserMain1 import Ui_UserMainWindow
 from UserInformation1 import Ui_UserInformationWindow
 
+# 为游戏做准备
+import pygame
+from PyQt5.QtWebEngineWidgets import *
+
 config = configparser.RawConfigParser()
 
 
